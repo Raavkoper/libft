@@ -1,8 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        ::::::::            */
+/*   ft_strnstr.c                                       :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: rkoper <rkoper@student.codam.nl>             +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2022/03/25 16:12:52 by rkoper        #+#    #+#                 */
+/*   Updated: 2022/03/25 16:16:30 by rkoper        ########   odam.nl         */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strnstr(const char *haystack, const char *needle, int len)
 {
-	int i;
+	int	i;
 	int	j;
 
 	i = 0;

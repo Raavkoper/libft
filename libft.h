@@ -6,7 +6,7 @@
 /*   By: rkoper <rkoper@student.codam.nl>             +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/03/25 16:13:55 by rkoper        #+#    #+#                 */
-/*   Updated: 2022/03/25 16:13:56 by rkoper        ########   odam.nl         */
+/*   Updated: 2022/05/21 22:20:20 by rkoper        ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,4 +85,7 @@ void	ft_putlhex_fd(unsigned long n, int fd);
 void	ft_putunbr_fd(unsigned int n, int fd);
 int		ft_checkvalue(va_list argptr, char value);
 int		ft_checkvalue1(va_list argptr, char value);
+void	free_dp(char **arr);
+char	**dp_dup(char **arr, int size);
+int		dp_len(char **arr);
 #endif

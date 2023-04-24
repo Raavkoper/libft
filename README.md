@@ -1,6 +1,7 @@
 # Libft_42
 
 ## Description
+<img width="199" alt="Screen Shot 2023-04-24 at 2 10 07 PM" src="https://user-images.githubusercontent.com/94134595/233992107-56e6674f-5a30-4744-8ac0-a574df983b3d.png">
 
 This is a project from 42 school. The goal is to code a C library regrouping usual functions that we’ll be allowed to use in all our other projects. Because usually we are obligated to write all the code we use from scratch, we made our own library to avoid rewriting the same code over and over again. This project is a good way to get familiar with the C language and to learn how to use the standard library. In addition I have implemented some extra functions that I found useful. 
 for example;
